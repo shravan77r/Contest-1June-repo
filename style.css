@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1F1F1F;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #262626;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #262626;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #about {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-item img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .about-item p {
+    font-size: 16px;
+  }
+  
+  .clock img {
+    width: 80px;
+    margin: 20px auto;
+  }
+  
+  .know-more {
+    padding: 10px 20px;
+    background-color: #FECB03;
+    color: #262626;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+  }
